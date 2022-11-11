@@ -1,4 +1,4 @@
-_import './ads.css'
+import './ads.css'
 
 export const AdsGrid = ({ data }) => {
   console.log("data", data);
