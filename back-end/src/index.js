@@ -16,9 +16,7 @@ const port = 4000;
 app.use(cors());
 
 app.get("/ads", async (req, res) => {
-  if (req.query.searchText === "") {
-    res.send([]);
-  }
+
   const data = await models.Ads.aggregate([
     {
       $lookup: {
