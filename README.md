@@ -1,11 +1,11 @@
 # MERN-Search-bar
 
-front-end steps:
+# front-end steps:
 
-npm i
-npm start
+1.npm i
+2.npm start
 
-back-end steps:
+# back-end steps:
 
-npm i
-npm start
+1.npm i
+2.npm start
