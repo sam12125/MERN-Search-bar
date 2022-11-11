@@ -1,4 +1,4 @@
-import './ads.css'
+_import './ads.css'
 
 export const AdsGrid = ({ data }) => {
   console.log("data", data);
@@ -8,7 +8,7 @@ export const AdsGrid = ({ data }) => {
       {data.length &&
         data.map((ad) => {
           return (
-             <div className='shadow' key={ad.id}>
+             <div className='shadow' key={ad._id}>
             <div>
               <b>Company url:</b> {ad.company.url}
             </div>
