@@ -1,0 +1,41 @@
+.App {
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  border: 1px #4ccb29 solid;
+  background-color: #e9ffdc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: darkslategrey;
+  margin-bottom: 30px;
+}
+.find-btn:disabled {
+  background-color: red;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
